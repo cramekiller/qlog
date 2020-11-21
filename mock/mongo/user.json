@@ -1,0 +1,9 @@
+{
+  "_id": { "$oid": "5fb0033db5df5a217c102080" },
+  "firstName": "Jason",
+  "lastName": "Watmore",
+  "username": "jason",
+  "createdDate": { "$date": { "$numberLong": "1605370685880" } },
+  "hash": "$2a$10$cryU0uIDWjUtHZozZzPhr.qGh1MHjjvzJAxqZeou7ZXdgz6OshI6e",
+  "__v": { "$numberInt": "0" }
+}
