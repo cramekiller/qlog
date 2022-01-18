@@ -6,7 +6,7 @@ chai.use(require("chai-as-promised"));
 
 const User = db.User;
 
-const userservice = require("../users/user.service");
+const userservice = require("../endpoints/users/user.service");
 
 const wsuserMock = require("../mock/ws/user.json");
 const mongoUserMock = require("../mock/mongo/user.json");
