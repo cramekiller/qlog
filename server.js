@@ -19,6 +19,7 @@ app.use("/ingredients", require("./endpoints/ingredients/ingredients.controller"
 app.use("/gobelets", require("./endpoints/gobelets/gobelets.controller"));
 app.use("/etats", require("./endpoints/etats_commandes/etats.controller"));
 app.use("/boissons", require("./endpoints/boissons/boissons.controller"));
+app.use("/commandes", require("./endpoints/commandes/commande.controller"));
 
 // global error handler
 app.use(errorHandler);

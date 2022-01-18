@@ -17,5 +17,6 @@ module.exports = {
   Ingredient: require("../endpoints/ingredients/ingredient.model"),
   Gobelet: require("../endpoints/gobelets/gobelet.model"),
   Etat: require("../endpoints/etats_commandes/etat.model"),
-  Boisson: require("../endpoints/boissons/boisson.model")
+  Boisson: require("../endpoints/boissons/boisson.model"),
+  Commande: require("../endpoints/Commandes/commande.model"),
 };

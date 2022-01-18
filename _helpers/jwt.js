@@ -15,6 +15,7 @@ function jwt() {
             /\/gobelets\/*([^\/\n]*)/,
             /\/etats\/*([^\/\n]*)/,
             /\/boissons\/*([^\/\n]*)/,
+            /\/commandes\/*([^\/\n]*)/,
         ]
     });
 }
