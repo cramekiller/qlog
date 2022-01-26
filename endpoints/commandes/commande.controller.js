@@ -12,8 +12,11 @@ router.delete("/:id", _delete);
 module.exports = router;
 
 function add(req, res, next) {
+  request = req.body
+  request.etat_commande = "en cours"
+  console.log(request)
   commandeService
-    .create(req.body)
+    .create(request)
     .then(() => res.json({}))
     .catch((err) => next(err));
 }

@@ -16,6 +16,7 @@ function jwt() {
             /\/etats\/*([^\/\n]*)/,
             /\/boissons\/*([^\/\n]*)/,
             /\/commandes\/*([^\/\n]*)/,
+            /\/app\/*([^\/\n]*)/,
         ]
     });
 }

@@ -22,14 +22,11 @@ async function getById(id) {
 
 async function create(commandeParam) {
   // validate
-  if (await Commande.findOne({ name: commandeParam.name })) {
-    throw 'name "' + commandeParam.name + '" is already taken';
-  }
-
   const commande = new Commande(commandeParam);
 
   // save user
-  await commande.save();
+  await commande.save()
+  return await Commande.findOne({}, {}, { sort: { 'created_at' : -1 } });
 }
 
 async function update(id, commandeParam) {

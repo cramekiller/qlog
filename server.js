@@ -20,6 +20,7 @@ app.use("/gobelets", require("./endpoints/gobelets/gobelets.controller"));
 app.use("/etats", require("./endpoints/etats_commandes/etats.controller"));
 app.use("/boissons", require("./endpoints/boissons/boissons.controller"));
 app.use("/commandes", require("./endpoints/commandes/commande.controller"));
+app.use("/app", require("./endpoints/app/commander"));
 
 // global error handler
 app.use(errorHandler);

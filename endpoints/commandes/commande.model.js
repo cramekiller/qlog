@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 
 const schema = new Schema({
     dateheure: { type: Date, value: Date.now() },
-    gobelet: [{ingretient: {type: Schema.Types.ObjectId, ref: 'Gobelet'}, quantity: Number}],
-    etat_commande: [{ingretient: {type: Schema.Types.ObjectId, ref: 'Etat'}, quantity: Number}],
-    boisson: [{ingretient: {type: Schema.Types.ObjectId, ref: 'Boisson'}, quantity: Number}],
+    gobelet: {type: Schema.Types.ObjectId, ref: 'Gobelet'},
+    etat_commande: String,
+    boisson: {type: Schema.Types.ObjectId, ref: 'Boisson'},
 });
 
 schema.set('toJSON', {
