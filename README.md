@@ -70,14 +70,14 @@ Lien GitHub : https://github.com/cramekiller/qlog
 ***
 
 - Ajouter un ingrédient
-- ![Ajouter ingredit](/images/img.png)
+![Ajouter ingredit](/images/img.png)
 - Afficher tous les ingrédients
-- ![Afficher tous les ingrédients](/images/img_1.png)
+![Afficher tous les ingrédients](/images/img_1.png)
 - Ajouter une boisson
-- ![Ajouter une boisson](/images/img_2.png)
+![Ajouter une boisson](/images/img_2.png)
 - Afficher les boisson
-- ![Afficher les boisson](/images/img_3.png)
+![Afficher les boisson](/images/img_3.png)
 - Ajouter des gobelets
-- ![Ajouter des gobelets](/images/img_4.png)
+![Ajouter des gobelets](/images/img_4.png)
 - Afficher les gobelets
-- ![Afficher les gobelets](/images/img_5.png)
+![Afficher les gobelets](/images/img_5.png)
