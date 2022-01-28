@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47c0b08-4ae5-4c71-b4f6-7afcbd70402d" name="Changes" comment="ajout des rapport d'erreur">
-      <change afterPath="$PROJECT_DIR$/Test Results - test_unit_test_boisson_js.html" afterDir="false" />
+    <list default="true" id="a47c0b08-4ae5-4c71-b4f6-7afcbd70402d" name="Changes" comment="ajout des rapport d'erreur v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/test_boisson.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_boisson.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/test_gobelets.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_gobelets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/test_ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_ingredient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +33,8 @@
       <recent name="C:\Users\lucla\IdeaProjects\qlog\test\unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test\unit\test_ingredient.js">
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Autheticate" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.test\integration.js">
+    <configuration name="test\integration.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -55,11 +42,20 @@
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
+      <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/test/integration.js</test-file>
-      <test-names>
-        <name value="Autheticate" />
-      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test\unit.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/unit.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="test\unit\test_boisson.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -100,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.test\integration.js" />
+        <item itemvalue="Mocha.test\unit.js" />
         <item itemvalue="Mocha.test\unit\test_ingredient.js" />
         <item itemvalue="Mocha.test\unit\test_gobelets.js" />
         <item itemvalue="Mocha.test\unit\test_boisson.js" />
-        <item itemvalue="Mocha.Autheticate" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643403148616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout des rapport d'erreur v2">
+      <created>1643405096278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643405096278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="correction test gobelet et boisson" />
     <MESSAGE value="ajout des rapport d'erreur" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des rapport d'erreur" />
+    <MESSAGE value="ajout des rapport d'erreur v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des rapport d'erreur v2" />
   </component>
 </project>

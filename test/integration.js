@@ -60,7 +60,7 @@ describe("Autheticate", function () {
     });
 });
 
-describe("Ingredients",function (){
+/*describe("Ingredients",function (){
     afterEach(function (){});
     it("Devrait ajouter un ingrédient",(done) =>{
         request(app)
@@ -100,4 +100,4 @@ describe("Ingredients",function (){
                 done();
             });
     });
-})
+})*/
