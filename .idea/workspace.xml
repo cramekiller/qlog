@@ -15,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -37,7 +38,7 @@
       <recent name="C:\Users\lucla\IdeaProjects\qlog\test\unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test\unit\test_ingredient.js">
+  <component name="RunManager" selected="Mocha.test\unit\test_boisson.js">
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -101,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.test\unit\test_ingredient.js" />
-        <item itemvalue="Mocha.test\unit\test_gobelets.js" />
         <item itemvalue="Mocha.test\unit\test_boisson.js" />
+        <item itemvalue="Mocha.test\unit\test_gobelets.js" />
+        <item itemvalue="Mocha.test\unit\test_ingredient.js" />
         <item itemvalue="Mocha.Autheticate" />
         <item itemvalue="npm.test" />
       </list>
