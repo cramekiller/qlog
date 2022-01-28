@@ -13,7 +13,7 @@ const wsingredientMock = require("../../mock/ws/ingredient.json");
 const mongoIngredientMock = require("../../mock/mongo/ingredient.json");
 var sandbox = require("sinon").createSandbox();
 
-describe("Get ingredient", function() {
+/*describe("Get ingredient", function() {
     afterEach(function () {
         Ingredient.findOne.restore();
         sandbox.restore();
@@ -33,7 +33,7 @@ describe("Get ingredient", function() {
                 expect(ingredient[0].quantity).to.equal(wsingredientMock.quantity);
             });
     })
-});
+});*/
 
 describe("Add Ingredient", function () {
     afterEach(function () {

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47c0b08-4ae5-4c71-b4f6-7afcbd70402d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mock/mongo/boisson.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock/mongo/gobelet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock/ws/gobelet.json" afterDir="false" />
+    <list default="true" id="a47c0b08-4ae5-4c71-b4f6-7afcbd70402d" name="Changes" comment="ajout des rapport d'erreur">
+      <change afterPath="$PROJECT_DIR$/Test Results - test_unit_test_boisson_js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/test_boisson.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_boisson.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/unit/test_gobelets.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_gobelets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/test_ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/test_ingredient.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
       <recent name="C:\Users\lucla\IdeaProjects\qlog\test\unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test\unit\test_boisson.js">
+  <component name="RunManager" selected="Mocha.test\unit\test_ingredient.js">
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,15 +100,46 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.test\unit\test_boisson.js" />
-        <item itemvalue="Mocha.test\unit\test_gobelets.js" />
         <item itemvalue="Mocha.test\unit\test_ingredient.js" />
+        <item itemvalue="Mocha.test\unit\test_gobelets.js" />
+        <item itemvalue="Mocha.test\unit\test_boisson.js" />
         <item itemvalue="Mocha.Autheticate" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="correction test gobelet et boisson">
+      <created>1643402865614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643402865614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ajout des rapport d'erreur">
+      <created>1643403148616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643403148616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correction test gobelet et boisson" />
+    <MESSAGE value="ajout des rapport d'erreur" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des rapport d'erreur" />
   </component>
 </project>

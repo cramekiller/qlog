@@ -13,7 +13,7 @@ const wsgobeletMock = require("../../mock/ws/gobelet.json");
 const mongoGobeletMock = require("../../mock/mongo/gobelet.json");
 var sandbox = require("sinon").createSandbox();
 
-describe("Get gobelet", function() {
+/*describe("Get gobelet", function() {
     afterEach(function () {
         Gobelet.findOne.restore();
         sandbox.restore();
@@ -33,7 +33,7 @@ describe("Get gobelet", function() {
                 expect(gobelet[0].quantity).to.equal(wsgobeletMock.quantity);
             });
     })
-});
+});*/
 
 describe("Add Gobelet", function () {
     afterEach(function () {
